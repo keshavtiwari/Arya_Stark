@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AryaStarksWishlist</string>
+
+    <string name="item1">Walder Frey</string>
+    <string name="item2">Cersie</string>
+    <string name="item3">The Mountain</string>
+    <string name="item4">Ilyn Payne</string>
+    <string name="item5">Lady Melisandre</string>
+    <string name="item6">Beric Dondarrion</string>
+    <string name="item7">Thoros of Myr</string>
+    <string name="item8">Ser Meryn Trant</string>
+    <string name="item9">Joffrey</string>
+    <string name="item10">Tywin Lannister</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

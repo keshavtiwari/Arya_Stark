@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.aryastarkswishlist.AddActivity"
+    android:background="@drawable/add_del">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Input_name"
+        android:fontFamily="cursive"
+        android:background="#FAFAFA"
+        android:elegantTextHeight="false"
+        android:hint="Enter Name"
+        style="@android:style/Widget.DeviceDefault.EditText"
+         />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="29dp"
+        android:background="#FAFAFA"
+        android:id="@+id/Input_house"
+        android:layout_below="@+id/Input_name"
+        android:layout_alignLeft="@+id/Input_name"
+        android:layout_alignStart="@+id/Input_name"
+        android:layout_alignRight="@+id/Input_name"
+        android:layout_alignEnd="@+id/Input_name"
+        android:hint="Enter house"
+        android:fontFamily="cursive" />
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:id="@+id/Inputcheck"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:layout_below="@+id/Inputcheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:id="@+id/final_add"
+        app:elevation="18dp"
+        app:backgroundTint="@android:color/darker_gray" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/warning"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/final_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
